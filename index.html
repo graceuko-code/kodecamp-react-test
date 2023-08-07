@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rest Countries API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Where in the world</h1>
+    <div id="nav-bar">
+        <nav>
+            <ul>
+                <li><h3 id="DarkModetext">Dark Mode is OFF</h3></li>
+                <li><button onclick="lightMode()" class="btn light-mode">light Mode</button></li>
+                <li><button onclick="darkMode()" class="btn dark-mode">Dark Mode</button></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="main-container">
+            <div id="info-container">
+                <select id="countries"></select>
+                <p>Capital: <span id="capital"></span></p>
+                <p>Dailing Code: <span id="dailing-code"></span></p>
+                <p>Population: <span id="population"></span></p>
+                <p>Currencies: <span id="currencies"></span></p>
+                <p>Region: <span id="region"></span></p>
+                <p>Subregion: <span id="subregion"></span></p>
+                
+            </div>
+
+        <div id="flag-container">
+            <img src="" alt="">
+        </div>
+        
+     
+    </div>
+   <script src="main.js"></script> 
+</body>
+</html>
